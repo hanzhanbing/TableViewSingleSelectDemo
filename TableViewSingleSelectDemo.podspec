@@ -1,8 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "TableViewSingleSelectDemo"
   s.version      = "0.0.1"
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
+  s.platform     = :ios, '7.0'
   s.summary      = "An example of TableView SingleSelect Function"
   s.homepage     = "https://github.com/hanzhanbing/TableViewSingleSelectDemo"
   s.license      = "MIT"
